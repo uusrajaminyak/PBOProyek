@@ -1,4 +1,7 @@
 Tipe,ID,Merk,Seri,Harga,Atribut1,Atribut2
-Prosesor,T-C2,Intel,Core i3-12100,1800000,LGA1700,60
-Motherboard,T-M2,ASRock,H610M-HDV,1200000,LGA1700,-
-RAM,T-R2,Kingston,Fury Beast 8GB,400000,DDR4,8
+Prosesor,P-GE,Intel,Core i3-12100F,1400000,LGA1700,58
+Motherboard,M-GE,ASRock,H610M-HDV,1200000,LGA1700,-
+RAM,R-GE,Kingston,Fury Beast 16GB,800000,DDR4,16
+GPU,G-GE,NVIDIA,GTX 1650,2500000,4,75
+PSU,PS-GE,DeepCool,PF450,500000,450,80+ White
+CPUCooler,CL-GE,DeepCool,AK400,450000,Air Cooler,-

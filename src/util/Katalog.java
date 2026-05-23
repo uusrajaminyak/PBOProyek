@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Katalog<T extends KomponenPC> {
     private List<T> daftarKomponen;
-    private static final String BORDER_TEBAL = "==============================================================";
-    private static final String BORDER_TIPIS = "--------------------------------------------------------------";
+    private static final String BORDER_TEBAL = "================================================================";
+    private static final String BORDER_TIPIS = "----------------------------------------------------------------";
 
     public Katalog() {
         this.daftarKomponen = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Katalog<T extends KomponenPC> {
 
     public void tampilkanKatalog(String judul) {
         System.out.println("\n" + BORDER_TEBAL);
-        System.out.printf("|| KATALOG: %-48s ||\n", judul.toUpperCase());
+        System.out.printf("||                   %s                 ||\n", judul.toUpperCase());
         System.out.println(BORDER_TEBAL);
 
         if (daftarKomponen.isEmpty()) {
